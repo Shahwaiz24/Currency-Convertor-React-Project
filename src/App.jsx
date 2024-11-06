@@ -6,7 +6,7 @@ function App() {
 
   return (
     
-     <div style={{ backgroundImage:"src/asset/wallpaper.jpg"}} className='w-full h-screen bg-no-repeat bg-fixed'></div>
+     <div className='w-full h-screen bg-no-repeat bg-fixed'></div>
   )
 }
 

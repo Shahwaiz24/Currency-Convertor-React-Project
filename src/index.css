@@ -2,8 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-#root{
-  background-repeat: no-repeat;
-
-  background-image: url(https://plus.unsplash.com/premium_photo-1681487769650-a0c3fbaed85a?q=80&w=2155&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-}

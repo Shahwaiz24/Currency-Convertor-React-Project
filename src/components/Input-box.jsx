@@ -9,6 +9,8 @@ function InputBox({
     selectedCurrency = "usd",
     onCurrencyChange,
     className = "",
+    isAmountDisable = false
+    
 }) {
    
 
@@ -19,7 +21,7 @@ function InputBox({
                     {label}
                 </label>
                 <input
-                    
+                    disabled={isAmountDisable}
                     className="outline-none w-full bg-transparent py-1.5"
                     type="number"
                     placeholder="Amount"
